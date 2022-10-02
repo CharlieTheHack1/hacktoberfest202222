@@ -80,7 +80,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 #### Profile views counter
 ![Visitor Count](https://profile-counter.glitch.me/{CharlieTheHack1}/count.svg)
 
-
+<a href="https://www.instagram.com/thelinuxboy/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
 
 ### Tools 🛠️
 
