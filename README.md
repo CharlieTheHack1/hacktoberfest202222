@@ -1,6 +1,6 @@
 # hacktoberfest2021
 
-## Hi there, I'm Rajiv
+## Hi there, I'm CHARLIE : THE HACKER
 
 <p align="center">
 <img width="20%" src="https://img.icons8.com/ios-filled/96/000000/programming.png"/>
@@ -98,7 +98,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 
 
 
-
+##DON'T EDIT THIS BELOW STEPS PART, EDIT REST OF THE THINGS
 
 **HOW TO GET HACKTOBERFEST 2022 T-SHIRT** 
 ```text
@@ -112,4 +112,8 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 8. The main developer will accept it 
 9. DONE, now you created one successfull pull request
 10. REPEAT ALL STEPS 4 times to complete all the task
+```
+
+```text
+Make this README FILE MORE PROFESSIONAL AND ATTRACTIVE
 ```
