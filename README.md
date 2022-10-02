@@ -101,6 +101,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 
 
 **HOW TO GET HACKTOBERFEST 2022 T-SHIRT** 
+```text
 1. Create a github account
 2. Register for hacktoberfest 2022 <a href="https://hacktoberfest.com/" ></a>
 3. Come here and edit this file
@@ -111,3 +112,4 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 8. The main developer will accept it 
 9. DONE, now you created one successfull pull request
 10. REPEAT ALL STEPS 4 times to complete all the task
+```
