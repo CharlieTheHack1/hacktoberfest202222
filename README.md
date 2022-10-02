@@ -39,7 +39,7 @@ Saturday     70 commits     ██████░░░░░░░░░░░�
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
 
 ```
-
+<a href="https://twitter.com/charliethehack1" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="CharlieTheHack1" height="30" width="40" /></a>
 <img align="right" width=300px alt="Unicorn" src="https://media.giphy.com/media/3ohs4BSacFKI7A717y/giphy.gif" />
 
 > <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Tlking about Personal Stuffs:***
@@ -80,9 +80,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 #### Profile views counter
 ![Visitor Count](https://profile-counter.glitch.me/{CharlieTheHack1}/count.svg)
 
-<p align="center">
-<img width="20%" src="https://img.icons8.com/ios-filled/96/000000/programming.png"/>
-</p>
+
 
 ### Tools 🛠️
 
