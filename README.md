@@ -95,7 +95,7 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 |---|---|---|---|---|---|
 
 
-
+<a href="https://twitter.com/charliethehack1" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="CharlieTheHack1" height="30" width="40" /></a>
 
 
 ### DON'T EDIT THIS BELOW STEPS PART, EDIT REST OF THE THINGS
