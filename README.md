@@ -2,6 +2,9 @@
 
 ## Hi there, I'm Sohel
 
+<!-- Typing Effect -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=8ccf72&center=true&lines=Python+Developer;Competitive+Programmer;Tech+Enthusiast;Open+Source+Developer;Finance+Geek;Machine-Learning+Enthusiast)](https://git.io/typing-svg)
+
 
 
 <br>
@@ -13,6 +16,8 @@
 
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
+
+## patch-1
 
 ```text
 🌞 Morning    41 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.65% 
@@ -31,9 +36,13 @@ Thursday     14 commits     █░░░░░░░░░░░░░░░░�
 Friday       16 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   5.44% 
 Saturday     70 commits     ██████░░░░░░░░░░░░░░░░░░░   23.81% 
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
+ 
+ 
 
-```
 
+[![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
+
+<hr>
 
 > <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Tlking about Personal Stuffs:***
 - <img src="https://media.giphy.com/media/j1sGG7gbue5o2gS31X/giphy.gif" width="30px">&nbsp;Pronouns: ***He/His*** or ***mrshadow***😉
