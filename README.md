@@ -39,7 +39,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 # ✨Getting started: 
 ```text
 1. Create a github account
-2. Register for hacktoberfest 2022 <a href="https://hacktoberfest.com/" ></a>
+2. Register for [hacktoberfest](https://hacktoberfest.com)
 3. Come here and edit this file
 4. Edit any 2 line code then click on **Propose Changes**
 5. Then save your edit and go to pull request on the up
