@@ -57,7 +57,41 @@ Saturday     70 commits     ██████░░░░░░░░░░░�
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
  
  
+<?php
 
+namespace AshBaker;
+
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Qquicker',
+                'position' => 'Founder'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+            Angular::class,
+            ReactNative::class,
+            TailwindCss::class,
+            Aws::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To contribute to open source.';
+    }
+}
 
 
 [![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
