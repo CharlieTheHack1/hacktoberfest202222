@@ -12,7 +12,7 @@ int main()
     cout << "Enter number of rows: ";
     cin >> rows;
 
-    for(int i = 1; i <= rows; ++i)
+    for(int k = 1; k <= rows; ++k)
     {
         for(int j = 1; j <= i; ++j)
         {
@@ -22,4 +22,8 @@ int main()
     }
     return 0;
 }
+
+
+
+//small changes
 
