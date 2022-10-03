@@ -7,16 +7,16 @@
 Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Required)
 
 # 🌟Languages
-- 💻 C
-- 💻 C++
-- 💻 HTML
-- 💻 PHP
-- 💻 Python
-- 💻 Java
-- 💻 Javascript
-- 💻 Dart
-- 💻 C#
-- 💻 CSS
+- 💻 C.
+- 💻 C++.
+- 💻 HTML.
+- 💻 PHP.
+- 💻 Python.
+- 💻 Java.
+- 💻 Javascript.
+- 💻 Dart.
+- 💻 C#.
+- 💻 CSS.
 
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
