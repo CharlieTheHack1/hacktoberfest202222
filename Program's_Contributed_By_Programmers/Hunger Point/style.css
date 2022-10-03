@@ -1,0 +1,379 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url("images/pizza_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    padding:10px ;
+}
+
+.logo span{
+    color: brown;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    border: 1px solid rgb(201, 198, 198);
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 8px 17px;
+}
+
+.menu a:hover{
+    background: red;
+    font-size:12px;
+    transition: 0.1s ease-in-out;
+}
+.menu{
+    padding-left: 100px;
+}
+
+.h-text{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    padding: 15px;
+    color: white;
+}
+
+.h-text p{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.h-text h1,h2{
+    font-size: 4em;
+    
+}
+.h-text #main_pgrf {
+    margin-bottom: 1.5em;
+    opacity: calc(0.8);
+}
+
+.h-text a{
+    text-decoration: none;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.h-text #Order:hover,#deals:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#deals{
+    background-color: black ;
+    padding: 10px 20px;
+}
+
+#deals span{
+    color: brown;
+    font-weight: bold;
+}
+
+.search_bar{
+    margin-top: 4em;
+    width: 100%;
+
+}
+.search_bar input{
+    padding: 9px;
+    border: 1px solid black;
+    font-size: medium;
+    border-radius: 8px;
+  
+}
+ .search_bar button{
+    background: red;
+    border: 1px solid black;
+    padding: 9px 11px;
+    border-radius: 8px;
+   
+} 
+.search_bar button i{
+    font-size: medium;
+    color: white;
+}
+
+.search_bar button:hover{
+    padding: 9px 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.foods{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heading h1 span{
+    color: brown;
+}
+
+
+.tiles{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    overflow: scroll;
+    overflow-y: hidden;
+    
+}
+
+.food_items{
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.food_items img{
+    width: 290px;
+    border-radius: 10px 10px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-row-gap: 15px;
+    
+}
+.details_sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.price{
+    text-align: right;
+}
+
+.details button{
+    background-color: black;
+    color: azure;
+    border: 1px solid  white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.details button:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.seeall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.seeall button{
+    background-color: black;
+    color: azure;
+    border: 1px solid  white;
+    border-radius: 10px;
+    padding: 13px;
+    transition: all 0.3s ease;
+
+}
+
+.seeall button:hover{
+
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container ul li{
+    list-style: none;
+    
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-col li a{
+    text-decoration: none;
+    color: e91e63;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:10px
+}
+
+.footer-col .social_links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0; 
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social_links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.image img{
+    width: 200vh;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+
+}
+
+.about{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-row-gap: 5px;
+    margin-bottom: 20px;
+ }
+
+
+ .about p{
+     width: 500px;
+ } 
+
+ .about p:first-child{
+    color: red;
+ } 
+
+ .about hr{
+     width:15em;
+     position: relative;
+     left: 8em;
+     top: 1em;
+     margin-bottom: 2em;
+ }
+
+ .about button{
+     background-color: black;
+    color: white;
+   
+    font-weight: bold;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 13px;
+    margin-left: 165px;
+    margin-right: 165px;
+    transition: all 0.3s ease;
+ }
+ .about button:hover{
+     background-color: white;
+    color: black;
+    margin-left: 170px;
+    margin-right: 170px;
+ }
