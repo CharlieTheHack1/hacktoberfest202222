@@ -21,14 +21,14 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
 - ⚡Make calculator without using operators in program
-- ⚡Create any pattern
-- ⚡Make any algorithm
+- ⚡Create any pattern.
+- ⚡Make any algorithm.
 - ⚡Add webpage parts.
-- ⚡Calculate fibonacci series with classes
-- ⚡Calculate factorial with classes
-- ⚡Print IP Address and Hostname
-- ⚡Any Game
-- ⚡Any Other Codes/Programs
+- ⚡Calculate fibonacci series with classes.
+- ⚡Calculate factorial with classes.
+- ⚡Print IP Address and Hostname.
+- ⚡Any Game.
+- ⚡Any Other Codes/Programs.
 
 # ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
