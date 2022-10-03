@@ -6,10 +6,10 @@
 
 ![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
 
-## Hi there, I'm Charlie
+## Hi there, I'm Charlie...
 
 Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Required)
-
+# Hacktoberfest 2022
 # 🌟Languages
 - 💻 C
 - 💻 C++
