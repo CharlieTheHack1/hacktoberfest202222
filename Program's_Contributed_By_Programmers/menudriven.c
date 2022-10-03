@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<conio.h>
+//This is a C comment
 
 void main()
 
