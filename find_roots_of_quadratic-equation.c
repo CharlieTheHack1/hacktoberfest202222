@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+//This is a C comment
 int main()
 {
    double a, b, c, discr, root1, root2, realPart, imgPart;
