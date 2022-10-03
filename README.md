@@ -14,6 +14,9 @@
 - Currently practicing **blockchain contracts**
 - Willing to contribute more and more in **Open Source Projects**
 
+## patch-4
+ 
+=======
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
 
@@ -57,6 +60,8 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 <h2>Some of my favorite quotes: </h2>
 1. "It is a fairly open secret that almost all systems can be hacked, somehow. It is a less spoken of secret that such hacking has actually gone quite mainstream." - Dan Kaminsky </br>
 2. "Behind every successful  Coder there an even more successful De-coder to understand that code." - Anonymous
+3.  "The purpose of our lives is to be happy." — Dalai Lama
+4.   "You only live once, but if you do it right, once is enough." — Mae West
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 
