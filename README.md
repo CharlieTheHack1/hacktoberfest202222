@@ -1,12 +1,32 @@
-# hacktoberfest2022
+# ✨Hacktoberfest 2022✨
 
 ## Hi there, I'm Charlie
 
-<!-- Typing Effect -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=8ccf72&center=true&lines=Bug+Hunter;Security+Researcher;Tech+Enthusiast;Open+Source+Developer;Finance;Programmer)](https://git.io/typing-svg)
+Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Required)
 
+# 🌟Languages
+- 💻 C
+- 💻 C++
+- 💻 HTML
+- 💻 PHP
+- 💻 Python
+- 💻 Java
+- 💻 Javascript
+- 💻 Dart
 
-## Swags of Hacktoberfest:
+# ❄Prgrams
+- ⚡Print 1 to 100 without using numbers
+- ⚡Make calculator without using operators in program
+- ⚡Create any pattern
+- ⚡Make any algorithm
+- ⚡Add webpage parts.
+- ⚡Calculate fibonacci series with classes
+- ⚡Calculate factorial with classes
+- ⚡Print IP Address and Hostname
+- ⚡Any Game
+- ⚡Any Other Codes
+
+## ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
  
      <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
