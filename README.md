@@ -1,14 +1,14 @@
-# hacktoberfest2021
+# hacktoberfest2022
 
-## Hi there, I'm Praveen
+## Hi there, I'm Sohel
 
 
 
 <br>
 
-- I'm  **Learner** | **Programmer** 
-- About me :- **code geek** | **full stack web development & CyberSec Enthusiast**
-- Currently practicing **cyber security**
+- I'm  **Learner** | **Programmer** | **Writer**
+- About me :- **code geek** | **full stack web development & Web 3.0 development**
+- Currently practicing **blockchain contracts**
 - Willing to contribute more and more in **Open Source Projects**
 
 <!--START_SECTION:waka-->
@@ -17,8 +17,8 @@
 ```text
 🌞 Morning    41 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.65% 
 🌆 Daytime    83 commits     ██████░░░░░░░░░░░░░░░░░░░   25.62% 
-🌃 Evening    172 commits    █████████████░░░░░░░░░░░░   53.09% 
-🌙 Night      28 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.64%
+🌃 Evening    172 commits    █████████████░░░░░░░░░░░░   45.09% 
+🌙 Night      228 commits    ███████████████░░░░░░░░░░   53.64%
 
 ```
 📅 **I'm Most Productive on Sunday** 
