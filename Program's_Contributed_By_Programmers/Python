@@ -1,1 +1,79 @@
 
+#NLP Part of speech recognizer
+
+
+import nltk
+from nltk import word_tokenize
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('tagsets')
+nltk.help.upenn_tagset()
+
+sentence = word_tokenize("whatever the world is a great place")
+nltk.pos_tag(sentence)
+
+sentence = word_tokenize("applicant is removed from applicant list of the job ")
+nltk.pos_tag(sentence)
+text="हिन्दी या हिंदी जिसके मानकीकृत रूप को मानक हिंदी कहा जाता है, विश्व की एक प्रमुख भाषा है एवं भारत की एक राजभाषा है केन्द्रीय स्तर पर भारत में सह-आधिकारिक भाषा अंग्रेजी है"
+
+print(nltk.word_tokenize(text))
+tokenisedwords = nltk.word_tokenize(text)
+
+# len(tokenisedwords)
+print("Count of है: ",tokenisedwords.count("है"))
+# Uni-gram model
+print(nltk.word_tokenize(text))
+tokenisedwords = nltk.word_tokenize(text)
+
+for word in tokenisedwords:
+  print(word)
+  temp = tokenisedwords.count(word) / len(tokenisedwords)
+  print(f"P({word}) = {temp}")
+  def getcount(wi, wi_1):  
+  ind = []
+  for itr in range(len(tokenisedwords)):
+      if(tokenisedwords[itr] == wi):
+          ind.append(itr)
+          print(tokenisedwords[itr])
+  print(ind)
+
+  count = 0
+  for i in ind:
+    if tokenisedwords[i-1] == wi_1:
+      count += 1
+      # print("yes") 
+    else:
+      pass
+      # print("no")
+  return count
+
+getcount(wi, wi_1)
+
+# Bi-gram model
+wi = "राजभाषा"
+wi_1 = "है"
+def BiGram(wi,wi_1):
+  if(tokenisedwords.count(wi) > 0):
+    temp = getcount(wi,wi_1) / tokenisedwords.count(wi_1)
+    print(f"P({wi}/{wi_1}) = {temp}")
+  else:
+    print(f"P({wi}/{wi_1}) = 0")
+
+BiGram(wi, wi_1)
+|#POS IN HINDI LANGUAGE: using tnt pos tagger.
+from nltk.tag import tnt
+from nltk.corpus import indian
+import nltk
+#nltk.download('all')
+
+def hindi_model():
+    train_data = indian.tagged_sents('hindi.pos')
+    tnt_pos_tagger = tnt.TnT()
+    tnt_pos_tagger.train(train_data)
+    return tnt_pos_tagger
+
+text = "इराक के विदेश मंत्री ने अमरीका के उस प्रस्ताव का मजाक उड़ाया है , जिसमें अमरीका ने संयुक्त राष्ट्र के प्रतिबंधों को इराकी नागरिकों के लिए कम हानिकारक बनाने के लिए कहा है ।"
+
+model = hindi_model()
+new_tagged = (model.tag(nltk.word_tokenize(text)))
+print(new_tagged)
