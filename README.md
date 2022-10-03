@@ -17,6 +17,8 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - 💻 Dart
 - 💻 C#
 - 💻 CSS
+- 💻 SQL
+- 💻 Swift
 
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
