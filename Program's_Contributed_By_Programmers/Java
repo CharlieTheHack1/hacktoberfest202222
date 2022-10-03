@@ -1,1 +1,29 @@
+//Program to count files in directory (JAVA)
+
+import java.io.File;
+
+public class CountFiles {
+    public void Easy() {
+        System.out.println(new File("D:/headstrait/impactsure").listFiles().length);
+
+    }
+
+    public void TraditionalApproach() {
+
+        File f = new File("D:/headstrait/impactsure");
+        int count = 0;
+        for (File file : f.listFiles()) {
+            if (file.isFile()) {
+                count++;
+            }
+        }
+        System.out.println("Number of files: " + count);
+    }
+
+    public static void main(String args[]) {
+        CountFiles c = new CountFiles();
+        c.Easy();
+        c.TraditionalApproach();
+    }
+}
 

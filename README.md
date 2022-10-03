@@ -4,6 +4,8 @@
   <img src="https://img.shields.io/github/stars/CharlieTheHack1/hacktoberfest2022?style=for-the-badge">
 </a>
 
+![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
+
 ## Hi there, I'm Charlie
 
 Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Required)
@@ -17,6 +19,8 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - 💻 Java
 - 💻 Javascript
 - 💻 Dart
+- 💻 C#
+- 💻 CSS
 
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
@@ -28,7 +32,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - ⚡Calculate factorial with classes
 - ⚡Print IP Address and Hostname
 - ⚡Any Game
-- ⚡Any Other Codes
+- ⚡Any Other Codes/Programs
 
 # ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
@@ -43,7 +47,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 # ✨Getting started: 
 ```text
 1. Create a github account
-2. Register for hacktoberfest 2022 <a href="https://hacktoberfest.com/" ></a>
+2. Register for hacktoberfest 2022(https://hacktoberfest.com)
 3. Come here and edit this file
 4. Edit any 2 line code then click on **Propose Changes**
 5. Then save your edit and go to pull request on the up
@@ -51,7 +55,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 7. Click on it and save it
 8. The main developer will accept it 
 9. DONE, now you created one successfull pull request
-10. REPEAT ALL STEPS 4 times to complete all the task
+10. REPEAT ALL STEPS 4 times to Complete All the task
 ```
 
 # Contribution rules📚:

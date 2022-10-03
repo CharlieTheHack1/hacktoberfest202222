@@ -1,1 +1,29 @@
 add codes here
+
+// Program to print half pyramid
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int rows;
+
+    cout << "Enter number of rows: ";
+    cin >> rows;
+
+    for(int k = 1; k <= rows; ++k)
+    {
+        for(int j = 1; j <= i; ++j)
+        {
+            cout << "* ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+
+
+
+//small changes
+
