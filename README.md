@@ -14,7 +14,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - 💻 Javascript
 - 💻 Dart
 
-# ❄Prgrams
+# ❄Programs
 - ⚡Print 1 to 100 without using numbers
 - ⚡Make calculator without using operators in program
 - ⚡Create any pattern
@@ -26,17 +26,17 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - ⚡Any Game
 - ⚡Any Other Codes
 
-## ⚡️Swags of Hacktoberfest:
+# ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
  
      <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
 </b></li>
 
-## What to do ?
+# ✡What to do ?
 1. Just add and new README.md file or add any programming language codes of calculator, creating games, payloads, scripts in the given area.
 2. You can also download this README.md file, edit and upload it here.
 
-## Getting started: 
+# ✨Getting started: 
 ```text
 1. Create a github account
 2. Register for hacktoberfest 2022 <a href="https://hacktoberfest.com/" ></a>
