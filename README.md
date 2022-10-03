@@ -9,9 +9,17 @@
 
 <br>
 
+
+- I'm  **Learner** | **Programmer** 
+- About me :- **code geek** | **full stack web development & CyberSec Enthusiast**
+- Currently practicing & learning **cyber security**
+- i was always willing to learn new technologies 
+- wanted to gain more knowledge from this
+=======
 - I'm  **Learner** | **Programmer** | **Writer**
 - About me :- **code geek** | **full stack web development & Web 3.0 development**
 - Currently practicing **blockchain contracts**
+
 - Willing to contribute more and more in **Open Source Projects**
 
 ## patch-4
@@ -20,6 +28,9 @@
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
 
+
+
+=======
 ## patch-1
 
 ```text
@@ -41,6 +52,7 @@ Saturday     70 commits     ██████░░░░░░░░░░░�
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
  
  
+
 
 
 [![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
