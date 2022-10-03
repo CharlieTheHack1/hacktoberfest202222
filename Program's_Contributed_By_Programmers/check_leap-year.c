@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
+//This is a c comment
 int main()
 {
 int year;
