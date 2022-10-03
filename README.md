@@ -1,11 +1,16 @@
+
+
 # hacktoberfest2022
+
 
 ## Hi there, I'm Sohel
 
 <!-- Typing Effect -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=8ccf72&center=true&lines=Python+Developer;Competitive+Programmer;Tech+Enthusiast;Open+Source+Developer;Finance+Geek;Machine-Learning+Enthusiast)](https://git.io/typing-svg)
 
-
+<a target="_blank" align="center">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+</a>
 
 <br>
 
