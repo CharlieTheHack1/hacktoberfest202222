@@ -1,5 +1,11 @@
 # ✨Hacktoberfest 2022✨
+
+<a href="https://github.com/CharlieTheHack1/hacktoberfest2022">
+  <img src="https://img.shields.io/github/stars/CharlieTheHack1/hacktoberfest2022?style=for-the-badge">
+</a>
+
 ![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
+
 ## Hi there, I'm Charlie
 
 Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Required)
