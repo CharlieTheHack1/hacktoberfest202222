@@ -22,7 +22,9 @@
 
 [![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
 
-<hr>
+
+<!-- Stats -->
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CharlieTheHack1&theme=dark" />
 
 > <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Tlking about Personal Stuffs:***
 - <img src="https://media.giphy.com/media/j1sGG7gbue5o2gS31X/giphy.gif" width="30px">&nbsp;Pronouns: ***He/His*** or ***mrshadow***😉
