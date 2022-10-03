@@ -56,9 +56,14 @@ Friday       16 commits     █░░░░░░░░░░░░░░░░�
 Saturday     70 commits     ██████░░░░░░░░░░░░░░░░░░░   23.81% 
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
  
- 
+ Sunday is Funday
+ -------------------------------------------------------------------------
 
 
+Charlie: The Hacker
+Stats
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CharlieTheHack1)](https://git.io/streak-stats)
 
 [![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
 
