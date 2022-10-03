@@ -1,6 +1,12 @@
-# Hacktoberfest2021 !!
 
-## Hi there, I'm Praveen
+
+# hacktoberfest2022
+
+
+## Hi there, I'm Sohel
+
+<!-- Typing Effect -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=8ccf72&center=true&lines=Python+Developer;Competitive+Programmer;Tech+Enthusiast;Open+Source+Developer;Finance+Geek;Machine-Learning+Enthusiast)](https://git.io/typing-svg)
 
 <a target="_blank" align="center">
   <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
@@ -8,19 +14,35 @@
 
 <br>
 
+
 - I'm  **Learner** | **Programmer** 
 - About me :- **code geek** | **full stack web development & CyberSec Enthusiast**
-- Currently practicing **cyber security**
+- Currently practicing & learning **cyber security**
+- i was always willing to learn new technologies 
+- wanted to gain more knowledge from this
+=======
+- I'm  **Learner** | **Programmer** | **Writer**
+- About me :- **code geek** | **full stack web development & Web 3.0 development**
+- Currently practicing **blockchain contracts**
+
 - Willing to contribute more and more in **Open Source Projects**
 
+## patch-4
+ 
+=======
 <!--START_SECTION:waka-->
 **I'm a Night 🦉** 
+
+
+
+=======
+## patch-1
 
 ```text
 🌞 Morning    41 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.65% 
 🌆 Daytime    83 commits     ██████░░░░░░░░░░░░░░░░░░░   25.62% 
-🌃 Evening    172 commits    █████████████░░░░░░░░░░░░   53.09% 
-🌙 Night      28 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.64%
+🌃 Evening    172 commits    █████████████░░░░░░░░░░░░   45.09% 
+🌙 Night      228 commits    ███████████████░░░░░░░░░░   53.64%
 
 ```
 📅 **I'm Most Productive on Sunday** 
@@ -33,9 +55,14 @@ Thursday     14 commits     █░░░░░░░░░░░░░░░░�
 Friday       16 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   5.44% 
 Saturday     70 commits     ██████░░░░░░░░░░░░░░░░░░░   23.81% 
 Sunday       91 commits     ███████░░░░░░░░░░░░░░░░░░   30.95%
+ 
+ 
 
-```
 
+
+[![CharlieTheHack1's github activity graph](https://activity-graph.herokuapp.com/graph?username=CharlieTheHack1&bg_color=000000&color=888888&line=8ccf72&point=ff5d31&area=true&hide_border=true)](https://github.com/CharlieTheHack1/github-readme-activity-graph)
+
+<hr>
 
 > <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***Tlking about Personal Stuffs:***
 - <img src="https://media.giphy.com/media/j1sGG7gbue5o2gS31X/giphy.gif" width="30px">&nbsp;Pronouns: ***He/His*** or ***mrshadow***😉
@@ -50,6 +77,8 @@ Sunday       91 commits     ███████░░░░░░░░░░�
 <h2>Some of my favorite quotes: </h2>
 1. "It is a fairly open secret that almost all systems can be hacked, somehow. It is a less spoken of secret that such hacking has actually gone quite mainstream." - Dan Kaminsky </br>
 2. "Behind every successful  Coder there an even more successful De-coder to understand that code." - Anonymous
+3.  "The purpose of our lives is to be happy." — Dalai Lama
+4.   "You only live once, but if you do it right, once is enough." — Mae West
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 
