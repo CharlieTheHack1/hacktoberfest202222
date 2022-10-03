@@ -13,6 +13,8 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - 💻 Java
 - 💻 Javascript
 - 💻 Dart
+- 💻 C#
+- 💻 CSS
 
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
@@ -24,7 +26,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - ⚡Calculate factorial with classes
 - ⚡Print IP Address and Hostname
 - ⚡Any Game
-- ⚡Any Other Codes
+- ⚡Any Other Codes/Programs
 
 # ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
