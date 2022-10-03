@@ -1,9 +1,5 @@
 # Hacktoberfest 2022 `OPEN FIRST` Pull Request - `FREE T-SHIRT`🎉
 
-<a href="https://github.com/CharlieTheHack1/hacktoberfest2022">
-  <img src="https://img.shields.io/github/stars/CharlieTheHack1/hacktoberfest2022?style=for-the-badge">
-</a>
-
 ![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
 
 ## Hi there, I'm Charlie
