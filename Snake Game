@@ -1,0 +1,642 @@
+# importing libraries
+
+import pygame
+
+import time
+
+import random
+
+ 
+
+snake_speed = 15
+
+ 
+
+# Window size
+
+window_x = 720
+
+window_y = 480
+
+ 
+
+# defining colors
+
+black = pygame.Color(0, 0, 0)
+
+white = pygame.Color(255, 255, 255)
+
+red = pygame.Color(255, 0, 0)
+
+green = pygame.Color(0, 255, 0)
+
+blue = pygame.Color(0, 0, 255)
+
+ 
+
+# Initialising pygame
+
+pygame.init()
+
+ 
+
+# Initialise game window
+
+pygame.display.set_caption('GeeksforGeeks Snakes')
+
+game_window = pygame.display.set_mode((window_x, window_y))
+
+ 
+
+# FPS (frames per second) controller
+
+fps = pygame.time.Clock()
+
+ 
+
+# defining snake default position
+
+snake_position = [100, 50]
+
+ 
+
+# defining first 4 blocks of snake body
+
+snake_body = [[100, 50],
+
+              [90, 50],
+
+              [80, 50],
+
+              [70, 50]
+
+              ]
+
+# fruit position
+
+fruit_position = [random.randrange(1, (window_x//10)) * 10,
+
+                  random.randrange(1, (window_y//10)) * 10]
+
+ 
+
+fruit_spawn = True
+
+ 
+
+# setting default snake direction towards
+
+# right
+
+direction = 'RIGHT'
+
+change_to = direction
+
+ 
+
+# initial score
+
+score = 0
+
+ 
+
+# displaying Score function
+
+def show_score(choice, color, font, size):
+
+   
+
+    # creating font object score_font
+
+    score_font = pygame.font.SysFont(font, size)
+
+     
+
+    # create the display surface object
+
+    # score_surface
+
+    score_surface = score_font.render('Score : ' + str(score), True, color)
+
+     
+
+    # create a rectangular object for the text
+
+    # surface object
+
+    score_rect = score_surface.get_rect()
+
+     
+
+    # displaying text
+
+    game_window.blit(score_surface, score_rect)
+
+ 
+
+# game over function
+
+def game_over():
+
+   
+
+    # creating font object my_font
+
+    my_font = pygame.font.SysFont('times new roman', 50)
+
+     
+
+    # creating a text surface on which text
+
+    # will be drawn
+
+    game_over_surface = my_font.render(
+
+        'Your Score is : ' + str(score), True, red)
+
+     
+
+    # create a rectangular object for the text
+
+    # surface object
+
+    game_over_rect = game_over_surface.get_rect()
+
+     
+
+    # setting position of the text
+
+    game_over_rect.midtop = (window_x/2, window_y/4)
+
+     
+
+    # blit will draw the text on screen
+
+    game_window.blit(game_over_surface, game_over_rect)
+
+    pygame.display.flip()
+
+     
+
+    # after 2 seconds we will quit the program
+
+    time.sleep(2)
+
+     
+
+    # deactivating pygame library
+
+    pygame.quit()
+
+     
+
+    # quit the program
+
+    quit()
+
+ 
+
+ 
+
+# Main Function
+
+while True:
+
+     
+
+    # handling key events
+
+    for event in pygame.event.get():
+
+        if event.type == pygame.KEYDOWN:
+
+            if event.key == pygame.K_UP:
+
+                change_to = 'UP'
+
+            if event.key == pygame.K_DOWN:
+
+                change_to = 'DOWN'
+
+            if event.key == pygame.K_LEFT:
+
+                change_to = 'LEFT'
+
+            if event.key == pygame.K_RIGHT:
+
+                change_to = 'RIGHT'
+
+ 
+
+    # If two keys pressed simultaneously
+
+    # we don't want snake to move into two
+
+    # directions simultaneously
+
+    if change_to == 'UP' and direction != 'DOWN':
+
+        direction = 'UP'
+
+    if change_to == 'DOWN' and direction != 'UP':
+
+        direction = 'DOWN'
+
+    if change_to == 'LEFT' and direction != 'RIGHT':
+
+        direction = 'LEFT'
+
+    if change_to == 'RIGHT' and direction != 'LEFT':
+
+        direction = 'RIGHT'
+
+ 
+
+    # Moving the snake
+
+    if direction == 'UP':
+
+        snake_position[1] -= 10
+
+    if direction == 'DOWN':
+
+        snake_position[1] += 10
+
+    if direction == 'LEFT':
+
+        snake_position[0] -= 10
+
+    if direction == 'RIGHT':
+
+        snake_position[0] += 10
+
+ 
+
+    # Snake body growing mechanism
+
+    # if fruits and snakes collide then scores
+
+    # will be incremented by 10
+
+    snake_body.insert(0, list(snake_position))
+
+    if snake_position[0] == fruit_position[0] and snake_position[1] == fruit_position[1]:
+
+        score += 10
+
+        fruit_spawn = False
+
+    else:
+
+        snake_body.pop()
+
+         
+
+    if not fruit_spawn:
+
+        fruit_position = [random.randrange(1, (window_x//10)) * 10,
+
+                          random.randrange(1, (window_y//10)) * 10]
+
+         
+
+    fruit_spawn = True
+
+    game_window.fill(black)
+
+     
+
+    for pos in snake_body:
+
+        pygame.draw.rect(game_window, green,
+
+                         pygame.Rect(pos[0], pos[1], 10, 10))
+
+    pygame.draw.rect(game_window, white, pygame.Rect(
+
+        fruit_position[0], fruit_position[1], 10, 10))
+
+ 
+
+    # Game Over conditions
+
+    if snake_position[0] < 0 or snake_position[0] > window_x-10:
+
+        game_over()
+
+    if snake_position[1] < 0 or snake_position[1] > window_y-10:
+
+        game_over()
+
+ 
+
+    # Touching the snake body
+
+    for block in snake_body[1:]:
+
+        if snake_position[0] == block[0] and snake_position[1] == block[1]:
+
+            game_over()
+
+ 
+
+    # displaying score countinuously
+
+    show_score(1, white, 'times new roman', 20)
+
+ 
+
+    # Refresh game screen
+
+    pygame.display.update()
+
+ 
+
+    # Frame Per Second /Refresh Rate
+
+    fps.tick(snake_speed)
+
+Output:
+
+Snake using Pygame
+
+Like
+
+28
+
+Previous
+
+Next
+
+RECOMMENDED ARTICLES
+
+Page :
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Adding Collisions Using pygame.Rect.colliderect in Pygame
+
+07, Sep 21
+
+Create a Snake-Game using Turtle in Python
+
+23, Nov 20
+
+Snake Water Gun game using Python and C
+
+03, Jan 21
+
+AI Driven Snake Game using Deep Q Learning
+
+18, Jul 21
+
+PyQt5 - Snake Game
+
+25, May 20
+
+8-bit game using pygame
+
+17, Jan 20
+
+How to create Buttons in a game using PyGame?
+
+23, Apr 20
+
+Building and visualizing Sudoku Game Using Pygame
+
+22, Jul 20
+
+How to move your Game Character Around in Pygame
+
+23, Aug 21
+
+How to make Flappy Bird Game in Pygame?
+
+28, Aug 21
+
+Python program to convert camel case string to snake case
+
+22, May 19
+
+Python - Convert Snake Case String to Camel Case
+
+22, Sep 20
+
+Python - Convert Snake case to Pascal case
+
+28, Apr 20
+
+How to create walking character using multiple images from sprite sheet using Pygame?
+
+21, Jun 22
+
+Python - Drawing design using arrow keys in PyGame
+
+02, Apr 20
+
+Binary Search Visualization using Pygame in Python
+
+10, Jul 20
+
+Ternary Search Visualization using Pygame in Python
+
+01, Dec 20
+
+Snowfall display using Pygame in Python
+
+22, Sep 20
+
+Tic Tac Toe GUI In Python using PyGame
+
+02, May 20
+
+Building Space Invaders Using PyGame - Python
+
+20, Nov 21
+
+How to add color breezing effect using pygame?
+
+10, Mar 20
+
+Bubble sort visualizer using PyGame
+
+20, Apr 20
+
+How to Rotate and Scale images using PyGame ?
+
+15, Apr 21
+
+Monty Hall Problem's Simulation Using Pygame
+
+13, Oct 21
+
+Article Contributed By :
+
+https://media.geeksforgeeks.org/auth/avatar.png
+
+amnindersingh1414
+
+@amnindersingh1414
+
+Vote for difficulty
+
+Current difficulty : Medium
+
+Easy
+
+Normal
+
+Medium
+
+Hard
+
+Expert
+
+Improved By :
+
+sagartomar9927
+
+sumitgumber28
+
+simmytarika5
+
+as5853535
+
+Article Tags :
+
+Picked
+
+Python-projects
+
+Python-PyGame
+
+Python
+
+Practice Tags :
+
+python
+
+Improve Article
+
+Report Issue
+
+Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here.
+
+Load Comments
+
+WHAT'S NEW
+
+Python Programming Foundation -Self Paced Course
+
+View Details
+
+Data Structures & Algorithms- Self Paced Course
+
+View Details
+
+Complete Interview Preparation- Self Paced Course
+
+View Details
+
+A-143, 9th Floor, Sovereign Corporate Tower,
+
+Sector-136, Noida, Uttar Pradesh - 201305
+
+feedback@geeksforgeeks.org
+
+Company
+
+About Us
+
+Careers
+
+In Media
+
+Contact Us
+
+Privacy Policy
+
+Copyright Policy
+
+Learn
+
+Algorithms
+
+Data Structures
+
+SDE Cheat Sheet
+
+Machine learning
+
+CS Subjects
+
+Video Tutorials
+
+Courses
+
+News
+
+Top News
+
+Technology
+
+Work & Career
+
+Business
+
+Finance
+
+Lifestyle
+
+Knowledge
+
+Languages
+
+Python
+
+Java
+
+CPP
+
+Golang
+
+C#
+
+SQL
+
+Kotlin
+
+Web Development
+
+Web Tutorials
+
+Django Tutorial
+
+HTML
+
+JavaScript
+
+Bootstrap
+
+ReactJS
+
+NodeJS
+
+Contribute
+
+Write an Article
+
+Some rights reserved
+
+Lightbox
+
