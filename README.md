@@ -1,4 +1,4 @@
-# Hacktoberfest 2022 `OPEN FIRST` Pull Request - `FREE T-SHIRT`🎉
+# 🎉🎉Hacktoberfest 2022 `OPEN FIRST` Pull Request - `FREE T-SHIRT!`🎉🎉
 
 ![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
 
@@ -30,7 +30,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - ⚡Any Game
 - ⚡Any Other Codes/Programs
 
-# ⚡️Swags of Hacktoberfest:
+# 🎽Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
  
      <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
