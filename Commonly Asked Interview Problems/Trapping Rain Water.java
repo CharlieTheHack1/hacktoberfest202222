@@ -9,7 +9,7 @@ Explanation: The above elevation map (black section) is represented by array [0,
              In this case, 6 units of rain water (blue section) are being trapped.
 */
 class Solution {
-    public int trap(int[] height) {
+    public int trap(int[] height)throws IOException {
         int n = height.length;
         int water = 0;
         int[] l = new int[n];
