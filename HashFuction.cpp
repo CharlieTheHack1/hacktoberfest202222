@@ -150,7 +150,7 @@ int main()
             cout << "Enter Word to Delete: ";
             cin >> word;
             if (d.deleteWord(word))
-                cout << " Word is deleted.";
+                cout << " Word is destroyed.";
             else
             {
                 cout << "\nFailed to delete " << word;
@@ -161,7 +161,7 @@ int main()
             break;
 
         default:
-            cout << "\nWrong Choice.";
+            cout << "\nTry Again Mister.";
         }
 
     } while (choice != 0);
