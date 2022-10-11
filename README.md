@@ -1,3 +1,5 @@
+#THIS PROGRAM IS EXCLUDED BY HACKTOBERFEST, SO DON'T CREATE MORE PULL REQUEST IN THIS REPO !
+
 # Hacktoberfest 2022 `OPEN FIRST` Pull Request - `FREE T-SHIRT`🎉
 
 ![banner image](https://raw.githubusercontent.com/meerhamzadev/Hacktoberfest/main/assets/banner.jpg)
