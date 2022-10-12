@@ -39,7 +39,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 </b></li>
 
 # ✡What to do ?
-1. Just add and new README.md file or add any programming language codes of calculator, creating games, payloads, scripts in the given area.
+1. Just add/or edit the README.md file or add any programming language code such as a: calculator, create a game, payloads, or scripts in the given area.
 2. You can also download this README.md file, edit and upload it here.
 
 # ✨Getting started: 
