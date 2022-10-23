@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+class Fibonacci {
+
+
+public:
+	int x, y, z;
+	void generate(int);
+};
+
+void Fibonacci::generate(int n)
+{
+	x = 0;
+	y = 1;
+
+	cout << x << " " << y;
+
+
+	for (int i = 1; i <= n - 2; i++) {
+
+		z = x + y;
+		cout << " " << z;
+
+
+		x = y;
+		y = z;
+	}
+}
+
+int main()
+{
+	int n = 9;
+
+	Fibonacci fib;
+	fib.generate(n);
+	return 0;
+}
