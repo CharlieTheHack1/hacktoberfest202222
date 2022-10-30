@@ -11,14 +11,16 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 # 🌟Languages
 - 💻 C
 - 💻 C++
+- 💻 C#
+- 💻 CSS
 - 💻 HTML
 - 💻 PHP
 - 💻 Python
 - 💻 Java
 - 💻 Javascript
 - 💻 Dart
-- 💻 C#
-- 💻 CSS
+- 
+- 
 
 # ❄Programs
 - ⚡Print 1 to 100 without using numbers
@@ -31,6 +33,7 @@ Contribute to start your journey with hacktoberfest. Happy Hacking💻!!! (*Requ
 - ⚡Print IP Address and Hostname
 - ⚡Any Game
 - ⚡Any Other Codes/Programs
+- ⚡Any Data Structures and algorithms soln.
 
 # ⚡️Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
@@ -80,3 +83,4 @@ Make this README FILE MORE PROFESSIONAL AND ATTRACTIVE
 </a>
   
 </div>
+
